@@ -1,0 +1,85 @@
+
+/* Задает стили всем элементам на странице ;  */
+*  {
+    border-radius: 10px;
+    text-align: center;
+}
+.main_block {
+    padding:10px; 
+    border:5px solid rgb(6, 177, 6);
+    height:500px;
+    position: relative;
+}
+.p-all{
+    position: absolute;
+    width: 50%;
+    margin: 25%;
+    
+}
+.div1 {
+    border:5px red solid;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+.div2 {
+    border:5px orange solid;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    align-items: center;
+    display:flex 
+    
+
+}
+/* Добавить стили к блоку 3 и 4 */
+.div3 {
+    border:5px rgb(4, 0, 255) solid;
+    width: 250px;
+    height: 250px;
+    display:flex;
+    align-items: center;
+    position: absolute;
+    left: 75%;
+    top: 40%;
+
+} 
+
+.div4{
+    border:5px rgb(200, 50, 27) solid;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 10%;
+    top: 5%;
+    align-items: center;
+    display:flex 
+}
+
+.div5{
+    border:5px rgb(156, 22, 22) solid;
+    width: 350px;
+    height: 200px;
+    background-color: rgb(241, 255, 196);
+    display:flex;
+    align-items: center;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
+.div6{
+    border:5px rgb(81, 6, 37) solid;
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    left: 67%;
+    top: 5%;
+    align-items: center;
+    display:flex
+}
